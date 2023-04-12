@@ -1,0 +1,28 @@
+/* paramètres généraux */
+@font-face{
+    font-family: 'font-h1med';
+    src: url(./Assets/fonts/Rajdhani-Medium.ttf);
+}
+body{
+    color: #ffffff;
+    background-color: black;
+}
+header {
+   min-height: 100vh;
+   background-image: url(./Assets/img/Bathome1.png);
+   background-position: center;
+   background-size: cover;
+}
+    
+
+
+/* paramètres particuliers */
+
+.about{
+    text-align: center;   
+}
+.home {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: right;
+}
