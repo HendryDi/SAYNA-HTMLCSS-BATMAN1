@@ -8,9 +8,8 @@ body{
     background-color: black;
 }
 header {
-   min-height: 750px;
+   min-height: 100vh;
    background-image: url(./Assets/img/Bathome1.png);
-   background-position: center;
    background-size: 100%;
    background-repeat: no-repeat;
 }
@@ -19,14 +18,16 @@ header {
 
 /* paramètres particuliers */
 
+
+.home {
+    
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
 .about{
     text-align: center;
     
-}
-.home {
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-align: right;
 }
 .flexbox {
     text-align: center;
