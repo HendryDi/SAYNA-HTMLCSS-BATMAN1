@@ -3,32 +3,69 @@
     font-family: 'font-h1med';
     src: url(./Assets/fonts/Rajdhani-Medium.ttf);
 }
+@font-face{
+    font-family: 'font-h2bold';
+    src: url(./Assets/fonts/Rajdhani-Bold.ttf);
+}
+@font-face {
+    font-family: 'font-txt';
+    src: url(./Assets/fonts/SpaceGrotesk-Regular.ttf);
+}
 body{
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 header {
-   min-height: 100vh;
-   background-image: url(./Assets/img/Bathome1.png);
-   background-size: 100%;
-   background-repeat: no-repeat;
+   background-color: #0a0a0a;
+   
 }
     
 
 
 /* paramètres particuliers */
 
-
-.home {
+.container1  {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
     
+}
+.container1  img {
+    margin-top: 68px;
+    min-width: 20%;
+    
+}
+.home {
+    font-family: 'font-h1med', sans-serif;
+    font-size: 36px;
     text-transform: uppercase;
     text-decoration: underline;
     
 }
 .about{
-    text-align: center;
+    
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    background-image: url(./Assets/img/Bathome1.png);
     
 }
-.flexbox {
+.flexbox1 {
+    
+    font-family: 'font-h1med', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
     text-align: center;
+}
+.flexbox1 ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flexbox1  li  {
+    list-style: none;
+    height: 100px;
+    width: 400px;
+    background: #d3a6a6;
+    margin: 0 300px;  
 }
