@@ -29,7 +29,6 @@ header {
    text-decoration: underline;
    text-transform: uppercase;
    padding-top: 2em;
-   background-image: url(./Assets/img/Bathome1.png);
 }
     
 
@@ -46,11 +45,12 @@ header {
     
 }
 .about{
-    
+    background-image: url(./Assets/img/Bathome1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
-    
-    
 }
 .flexbox1 {
     
