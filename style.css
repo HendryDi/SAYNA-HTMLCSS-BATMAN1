@@ -37,38 +37,21 @@ header {
 
 
 
-.home {
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    
-}
-.about{
-    background-image: url(./Assets/img/Bathome1.png);
-    height: 100vh;
+.preambule {
+    background: url(./Assets/img/Bathome1.png) center/cover ;
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-position: center;
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
-}
-.flexbox1 {
-    
-    font-family: 'font-h1med', sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
     text-align: center;
+    padding: 250px 250px;
 }
-.flexbox1 ul{
-    padding: 0;
+.preambule ul{
+    font-family: 'font-h1med', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
-    
-}
-.flexbox1  li  {
+    justify-content: space-evenly;
     list-style: none;
-    height: 100px;
-    width: 400px;
-    background: #d3a6a6;
-    margin: 0 300px;  
+    
 }
