@@ -38,6 +38,7 @@ header {
 
 
 .preambule {
+    position: relative;
     background: url(./Assets/img/Bathome1.png) center/cover ;
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -53,5 +54,18 @@ header {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
 }
+.preambule img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 50%;
+    right: 0;
+}
+    
+    
