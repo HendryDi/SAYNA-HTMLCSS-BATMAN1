@@ -79,12 +79,24 @@ header {
     font-size: 18px;
     text-align: justify;
     margin: 0 150px;
+    display: flex;
+    
 }
 .nemesis h1{
-    background-image: url(./Assets/img/Bathome13.png);
+    /* background-image: url(./Assets/img/Bathome13.png);
     background-repeat: no-repeat;
-    height: 250px;
+    height: 250px; */
     
+}
+.nemesis img{
+    height: 100px;
+        
+}
+.p1{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 150px;
 }
 .persos{
     font-family: 'font-txt', sans-serif;
