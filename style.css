@@ -80,6 +80,8 @@ header {
     text-align: justify;
     margin: 0 150px;
     display: flex;
+    margin-top: 4rem;
+    position: relative;
     
 }
 .nemesis h1{
@@ -90,6 +92,9 @@ header {
 }
 .nemesis img{
     height: 100px;
+    position: absolute;
+    top: -55%;
+    left: 5%;
         
 }
 .p1{
