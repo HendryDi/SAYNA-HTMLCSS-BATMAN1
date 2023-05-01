@@ -69,10 +69,16 @@ header {
 }
 .actors{
     font-family: 'font-txt', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     text-transform: capitalize;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+}
+.actors p{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .nemesis{
     font-family: 'font-txt', sans-serif;
@@ -82,12 +88,6 @@ header {
     display: flex;
     margin-top: 4rem;
     position: relative;
-    
-}
-.nemesis h1{
-    /* background-image: url(./Assets/img/Bathome13.png);
-    background-repeat: no-repeat;
-    height: 250px; */
     
 }
 .nemesis img{
@@ -105,8 +105,45 @@ header {
 }
 .persos{
     font-family: 'font-txt', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     text-transform: capitalize;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+}
+.persos p{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ally{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 150px;
+}
+.ally h1{
+    text-transform: uppercase;
+}
+.allies{
+    font-family: 'font-txt', sans-serif;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.allies p{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.jl2019{
+    font-family: 'font-txt', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 150px;
+}
+.jl img{
+    width: 100%;
 }
