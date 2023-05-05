@@ -22,13 +22,9 @@ body{
 }
 header {
    background-color: #0a0a0a;
-   display: flex;
-   justify-content: space-around;
-   text-align: center;
-   font-family: 'font-h1med', sans-serif;
-   text-decoration: underline;
-   text-transform: uppercase;
-   padding-top: 2em;
+   height: 900px;
+   width: 100%;
+   background: url(./Assets/img/Bathome1.png) center/cover ;
 }
     
 
@@ -36,10 +32,15 @@ header {
 /* paramètres particuliers */
 
 
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 
 .preambule {
     position: relative;
-    background: url(./Assets/img/Bathome1.png) center/cover ;
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: 'font-txt', sans-serif;
@@ -55,12 +56,23 @@ header {
     justify-content: space-evenly;
     list-style: none;
 }
-.preambule img {
+.socialmediaicon{
     position: absolute;
-    bottom: 0;
-    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-
+.socialmediaicon img{
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+    padding: 15px;
+}
+.flechebas{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+}
 .movies{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
