@@ -171,7 +171,59 @@ header {
     width: 100%;
     
 }
+.multimedia{
+    position: relative;
+}
 .multimedia h1{
     font-family: 'font-h1med', sans-serif;
     font-size: 36px;
+    margin: 80px 400px 80px 300px;
+}
+.iconarrow1{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 5%;
+}
+.iconarrow2{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 5%;
+}
+.resume {
+    background-color: #1f2d39;
+    height: 230px;
+    width: 500px;
+    display: flex;
+    margin: 50px 500px 100px 500px;
+    font-size: 12px;
+    font-family: 'font-txt', sans-serif;
+    border-radius: 0 10px 10px 0;
+    
+}
+.type{
+    margin-left: 15px;
+}
+.type h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.title{
+    font-family: 'font-h1med',sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.history{
+    font-size: 10px;
+    text-align: left;
+}
+.trailer{
+    background-image: url(./Assets/img/Bathome_ba2.png);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin:0 250px;
+
+    
+    
 }
