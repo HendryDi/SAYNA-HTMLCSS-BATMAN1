@@ -99,6 +99,9 @@ header {
     margin-left: 250px;
     margin-right: 250px;
 }
+.actors h3{
+    font-family: 'font-txt',sans-serif;
+}
 .actors p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
@@ -127,6 +130,9 @@ header {
     margin-left: 250px;
     margin-right: 250px;
 }
+.persos h3{
+    font-family: 'font-txt',sans-serif;
+}
 .persos p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
@@ -151,19 +157,22 @@ header {
     margin-left: 250px;
     margin-right: 250px;
 }
+.allies h3{
+    font-family: 'font-txt', sans-serif;
+}
 .allies p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
 }
-.jl2019{
+.jl2017{
     text-align: justify;
     margin: 80px 400px 80px 350px;
 }
-.jl2019 h1{
+.jl2017 h1{
     font-family: 'font-h1med', sans-serif;
     font-size: 36px;
 }
-.jl2019 p{
+.jl2017 p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
 }
