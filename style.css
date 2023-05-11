@@ -32,7 +32,7 @@ header {
 /* paramètres particuliers */
 
 
-.nav{
+/* nav {
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -40,11 +40,12 @@ header {
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 20px;
-}
-.nav img{
     margin-top: 45px;
-    height: 50px;
+    height: 50px;  
 }
+nav li{
+    list-style: none;
+} */
 .preambule {
     position: relative;
     min-height: 100vh;
@@ -53,14 +54,6 @@ header {
     font-size: 18px;
     text-align: center;
     padding: 250px 250px;
-}
-.preambule ul{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
 }
 .socialmediaicon{
     position: absolute;
