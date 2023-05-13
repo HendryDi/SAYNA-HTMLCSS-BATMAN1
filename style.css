@@ -11,19 +11,38 @@
     font-family: 'font-txt';
     src: url(./Assets/fonts/SpaceGrotesk-Regular.ttf);
 }
+:root{
+    --yellow-color : #ffff00; 
+    --yellow-light: #f8f184;
+    --blue: #19587d;
+    --red: #b11313;
+    --black2: #0d0e09;
+    --white: #fff;
+}
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+h1{
+    font-family: 'font-h1med', sans-serif;
+    font-size: 36px; 
+    font-weight: 400;
+}
+button{
+    font-family: 'font-h1med', sans-serif;
+    font-size: 20px; 
+    font-weight: 400;
 }
 body{
     color: #ffffff;
     background-color: rgb(0, 0, 0);
-    margin: 0;
-    padding: 0;
+    font-family: 'font-txt', sans-serif;
+    font-weight: 300;
 }
 header {
    background-color: #0a0a0a;
-   height: 900px;
-   width: 100%;
+   height: 100%;
    background: url(./Assets/img/Bathome1.png) center/cover ;
 }
     
@@ -34,27 +53,37 @@ header {
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin-top: 45px;
-    height: 50px;  
+    padding: 30px 0;
+    width: 80%;
+    margin: 0 auto;
 }
-nav li{
+ul{
     list-style: none;
+}
+nav ul a{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'font-h1med';
+    text-transform: uppercase;
+}
+nav ul a:hover{
+    color: var(--yellow-color);
 }
 .preambule {
     position: relative;
-    min-height: 100vh;
     background-repeat: no-repeat;
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
     text-align: center;
     padding: 250px 250px;
 }
-.button{
+.button a{
     text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
 }
 .socialmediaicon{
     position: absolute;
@@ -72,11 +101,6 @@ nav li{
     display: flex;
     justify-content: center;
     /* position: absolute; */
-}
-.movies h1{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
 }
 .movies{
     font-family: 'font-txt', sans-serif;
@@ -104,10 +128,10 @@ nav li{
     margin: 80px 0 -80px 250px;
     display: flex;
 }
-.nemesis h1{
+/* .nemesis h1{
     font-family: 'font-h1med', sans-serif;
     font-size: 36px;
-}
+} */
 .nemesis img{
     height: 80px;
 }
@@ -130,11 +154,6 @@ nav li{
 .persos p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
-}
-.ally h1{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
 }
 .ally{
     font-family: 'font-txt', sans-serif;
@@ -162,10 +181,7 @@ nav li{
     text-align: justify;
     margin: 80px 400px 80px 350px;
 }
-.jl2017 h1{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
-}
+
 .jl2017 p{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
@@ -178,8 +194,6 @@ nav li{
     position: relative;
 }
 .multimedia h1{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
     margin: 80px 400px 80px 300px;
 }
 .iconarrow1{
@@ -225,8 +239,5 @@ nav li{
     height: 650px;
     width: 100%;
     background-repeat: no-repeat;
-    margin:0 250px;
-
-    
-    
+    margin:0 250px;   
 }
