@@ -1,4 +1,3 @@
-/* paramètres généraux */
 @font-face{
     font-family: 'font-h1med';
     src: url(./Assets/fonts/Rajdhani-Medium.ttf);
@@ -18,6 +17,8 @@
     --red: #b11313;
     --black2: #0d0e09;
     --white: #fff;
+    --gradient-white:#eddebf69;
+    --gradient-red:#890009a6;
 }
 *{
     margin: 0;
@@ -29,28 +30,18 @@ h1{
     font-size: 36px; 
     font-weight: 400;
 }
-button{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 20px; 
-    font-weight: 400;
+header{
+    background: url(./Assets/img/Bathome1.png) center/cover ;
+    background-color: #0a0a0a;
+    height: 800px;
 }
 body{
     color: #ffffff;
-    background-color: rgb(0, 0, 0);
+    background: #0a0a0a;
     font-family: 'font-txt', sans-serif;
     font-weight: 300;
-}
-header {
-   background-color: #0a0a0a;
-   height: 100%;
-   background: url(./Assets/img/Bathome1.png) center/cover ;
-}
-    
-
-
-/* paramètres particuliers */
-
-
+} 
+/* paramètres pour la partie header */
 nav {
     display: flex;
     align-items: center;
@@ -73,40 +64,59 @@ nav ul a:hover{
     color: var(--yellow-color);
 }
 .preambule {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-repeat: no-repeat;
-    font-family: 'font-txt', sans-serif;
-    font-size: 18px;
     text-align: center;
-    padding: 250px 250px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    
 }
-.button a{
+.titre{
+    margin: 30px 0;
+}
+.btn{
     text-transform: uppercase;
     text-decoration: none;
     color: var(--white);
+    font-size: 22px;
+    padding: 10px 30px;
+    background: linear-gradient(
+        80deg,var(--gradient-white),var(--gradient-red)
+    );
+    box-shadow: var(--black2) 3px 3px 40px;
 }
-.socialmediaicon{
-    position: absolute;
+
+/* design pour le scroll avec logo réseaux sociaux */
+.scroll{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: fixed;
+    right: 90px;
+    top: 230px;
 }
-.socialmediaicon img{
-    position: relative;
-    left: 1000px;
-    bottom: 200px;
-    padding: 15px;
+.scroll .social{
+    margin-top: 15px;
 }
+/* design pour la flèche bas */
 .flechebas{
-    display: flex;
-    justify-content: center;
-    /* position: absolute; */
+    display: block;
+    margin: 0 auto;
+   margin-left: 50%;
 }
+
+/* design pour les cartes batmanmovies */
 .movies{
     font-family: 'font-txt', sans-serif;
     font-size: 18px;
     text-align: justify;
     margin: 80px 400px 80px 250px;
+}
+.movies h1{
+    margin: 50px auto;
 }
 .actors{
     font-size: 18px;
@@ -117,29 +127,22 @@ nav ul a:hover{
     margin-left: 250px;
     margin-right: 250px;
 }
-.actors h3{
-    font-family: 'font-txt',sans-serif;
-}
 .actors p{
-    font-family: 'font-txt', sans-serif;
     font-size: 18px;
 }
+/* design pour batmannemesis */
 .nemesis{
-    margin: 80px 0 -80px 250px;
-    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
 }
-/* .nemesis h1{
-    font-family: 'font-h1med', sans-serif;
-    font-size: 36px;
-} */
 .nemesis img{
-    height: 80px;
+    height: 100px;
+    padding-left: 50px;
 }
 .p1{
-    font-family: 'font-txt', sans-serif;
     font-size: 18px;
     text-align: justify;
-    margin: 80px 400px 80px 250px;
+    margin: 50px 400px 50px 250px;
 }
 .persos{
     display: flex;
@@ -148,20 +151,18 @@ nav ul a:hover{
     margin-left: 250px;
     margin-right: 250px;
 }
-.persos h3{
-    font-family: 'font-txt',sans-serif;
-}
 .persos p{
-    font-family: 'font-txt', sans-serif;
     font-size: 18px;
 }
+/* design pour batmanallies */
 .ally{
-    font-family: 'font-txt', sans-serif;
     font-size: 18px;
     text-align: justify;
-    margin: 80px 400px 80px 250px;
+    margin: 50px 400px 50px 250px;
 }
-
+.ally h1{
+    margin: 50px auto;
+}
 .allies{
     text-transform: capitalize;
     display: flex;
@@ -170,54 +171,52 @@ nav ul a:hover{
     margin-left: 250px;
     margin-right: 250px;
 }
-.allies h3{
-    font-family: 'font-txt', sans-serif;
-}
-.allies p{
-    font-family: 'font-txt', sans-serif;
-    font-size: 18px;
-}
+/* design pour la justice league */
 .jl2017{
     text-align: justify;
-    margin: 80px 400px 80px 350px;
+    margin: 50px 400px 50px 350px;
 }
-
+.jl2017 h1{
+    margin: 50px auto;
+}
 .jl2017 p{
-    font-family: 'font-txt', sans-serif;
     font-size: 18px;
 }
 .jl img{
-    width: 100%;
-    
+    width: 100%; 
 }
+/* design de la partie multimédia */
+
 .multimedia{
     position: relative;
 }
 .multimedia h1{
     margin: 80px 400px 80px 300px;
 }
-.iconarrow1{
+
+.left{
     margin-left: 300px;
     position: absolute;
     margin-top: 5%;
+    
 }
-.iconarrow2{
+.right{
     position: absolute;
     margin-left: 1200px;
     margin-top: 5%;
 }
 .resume {
-    background-color: #1f2d39;
+    background-color: #727272;
     height: 230px;
     width: 500px;
     display: flex;
     margin: 50px 500px 100px 500px;
     font-size: 12px;
     font-family: 'font-txt', sans-serif;
-    border-radius: 0 10px 10px 0;
-    
+    border-radius: 0 10px 10px 0;   
 }
 .type{
+    margin-top: 10px;
     margin-left: 15px;
 }
 .type h2{
@@ -228,16 +227,16 @@ nav ul a:hover{
 .title{
     font-family: 'font-h1med',sans-serif;
     font-size: 18px;
-    margin: 0;
+    margin: 10px 0;
+}
+.yellow{
+    color: var(--yellow-color);
 }
 .history{
     font-size: 10px;
     text-align: left;
+    margin-top: 20px;
 }
 .trailer{
-    background-image: url(./Assets/img/Bathome_ba2.png);
-    height: 650px;
-    width: 100%;
-    background-repeat: no-repeat;
-    margin:0 250px;   
+    margin: 50px 250px;
 }

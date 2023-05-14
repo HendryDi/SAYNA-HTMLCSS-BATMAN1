@@ -10,8 +10,7 @@
 <link rel="stylesheet" href="./style.css">
 
 <body>
-
-    <header>
+<header>
         <nav>
             <a href="index.html">
                 <img src="./Assets/logo/logohome.png" alt="logobatman">
@@ -20,29 +19,29 @@
                 <li> <a href="index.html">Home</a> </li>
             </ul>
         </nav>
+        <div class="scroll">
+            <img src="./Assets/logo/logo_bat_flèche.png" alt="flèchehaut">
+            <img class="social" src="./Assets/logo/icon_facebook.png" alt="logofacebook">
+            <img class="social" src="./Assets/logo/icon_ig.png" alt="logoinstagram">
+            <img class="social" src="./Assets/logo/icon_tw.png" alt="logotwitter">
+            <img src="./Assets/logo/logo_bat_flèche_2.png" alt="flèchebas">
+    </div>
         <div class="preambule">
-            <p>Au nom de ses parents assassinés, Bruce Wayne mène
+            <p class="texte">Au nom de ses parents assassinés, Bruce Wayne mène
             <br> une guerre éternelle contre les 
                 criminels de Gotham City. <br>
                 Il est vengeur. Il est la nuit.</p>
-                <h2>Il est Batman.</h2>
+                <h2 class="titre">Il est Batman.</h2>
             <div class="button">
-                <a href="#">voir le héro</a>
-                <a href="#">les adversaires</a>
-            </div>
-           <div class="socialmediaicon">
-                <img src="./Assets/logo/logo_bat_flèche.png" alt="flèchehaut">
-                <img src="./Assets/logo/icon_facebook.png" alt="logofacebook">
-                <img src="./Assets/logo/icon_ig.png" alt="logoinstagram">
-                <img src="./Assets/logo/icon_tw.png" alt="logotwitter">
-                <img src="./Assets/logo/logo_bat_flèche_2.png" alt="flèchebas">
-            </div>
-        </div>
-        <div class="flechebas">
-            <img src="./Assets/logo/flèche_down_header.png" alt="flèchebas">
-    </header>    
+                <a class="btn" href="#batmanmovies">voir le héro</a>
+                <a class="btn" href="#batmannemesis">les adversaires</a>
+            </div>           
+    </header> 
+    <div class="flechebas">
+        <img src="./Assets/logo/flèche_down_header.png" alt="flèchebas">
+    </div>   
     <main>  
-        <section class="batmanmovies">
+        <section id="batmanmovies">
             <div class="movies">
             <h1>BATMAN AU CINÉMA</h1>
             <p>Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le 
@@ -70,10 +69,10 @@
                 </div>
             </div>
         </section>
-        <section class="batmannemesis">
+        <section id="batmannemesis">
             <div class="nemesis">
-            <h1>NÉMÉSIS</h1>
             <img src="./Assets/img/Bathome13.png" alt="shurikenbatman">
+            <h1>NÉMÉSIS</h1>
             </div>
             <div class="p1">
             <p>Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart 
@@ -100,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section class="batmanally">
+        <section id="batmanallies">
             <div class="ally">
             <h1>ALLIÉS</h1>
             <p>Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce 
@@ -138,19 +137,22 @@
             </div>
             <img src="./Assets/img/Bathome11.png" alt="image de justice league">
         </section>
-        <section class="multimedia">
+        <section id="multimedias">
+            <div class="multimedia">
             <h1>MULTIMEDIA</h1>
-            <div class="iconarrow1"><img src="./Assets/logo/icon_flèche_1.png" alt="flèchegauche"></div>
-            <div class="iconarrow2"><img src="./Assets/logo/icon_flèche_2.png" alt="flèchedroite">
-        </div>
-            <div class="resume">
-                
+            <div class="left">
+                <img src="./Assets/logo/icon_flèche_1.png" alt="flèchegauche"></div>
+            <div class="right">
+                <img src="./Assets/logo/icon_flèche_2.png" alt="flèchedroite">
+            </div>
+    </div>
+            <div class="resume">   
                 <div class="batmanbegin">
                     <img src="./Assets/img/Bathome_ba1.png" alt="batmanbeginsposter">
                 </div>
                 <div class="type"><h2>Action, Adventure</h2>
                 <div class="title"><h3> Batman Begins</h3></div>
-                <p>IMDB : <span>8.2</span> </p>
+                <p>IMDB : <span class="yellow">8.2</span> </p>
                 <div class="history"><p>Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
                     traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de 
                     guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à 
@@ -159,7 +161,7 @@
             </div>
         </section>
         <div class="trailer">
-            
+                <img src="./Assets/img/Bathome_ba2.png" alt="bande-annonce">
         </div>
         <section class="contact">
             <h2>PRENONS CONTACT</h2>
@@ -202,7 +204,6 @@
             <div class="guillemet2">
                 <img src="./Assets/logo/icon_guillemets_2.png" alt="guillemet2">
             </div>
-
         </section>
     </main>
     <footer>
