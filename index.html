@@ -137,14 +137,17 @@
             </div>
             <img src="./Assets/img/Bathome11.png" alt="image de justice league">
         </section>
+
+        <!-- Multimédia -->
+
         <section id="multimedias">
             <div class="multimedia">
             <h1>MULTIMEDIA</h1>
-            <div class="left">
-                <img src="./Assets/logo/icon_flèche_1.png" alt="flèchegauche"></div>
-            <div class="right">
+            <button class="left">
+                <img src="./Assets/logo/icon_flèche_1.png" alt="flèchegauche"></button>
+            <button class="right">
                 <img src="./Assets/logo/icon_flèche_2.png" alt="flèchedroite">
-            </div>
+            </button>
     </div>
             <div class="resume">   
                 <div class="batmanbegin">
@@ -163,32 +166,40 @@
         <div class="trailer">
                 <img src="./Assets/img/Bathome_ba2.png" alt="bande-annonce">
         </div>
-        <section class="contact">
+        <!-- Formulaire -->
+        <section id="contact">
+            <div class="formulaire">
             <h2>PRENONS CONTACT</h2>
             <form action="">
-                <label for="email"> ADRESSE EMAIL</label>
+                <label class="titre" for="email"> ADRESSE EMAIL</label>
                 <input type="email" name="email" placeholder="Adresse email">
-                <label for="newsletter">NEWSLETTER</label><br>
-                <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de 
-                    Batman :</label><br>
+                <label class="titre" for="newsletter">NEWSLETTER</label>
+                <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les <br> aventures de 
+                    Batman :</label>
                     <input type="checkbox">
                     <br>
-                    <div class="formulaire">
+                    <div class="ligne3">
                         <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
-                        <span>
+                        <span class="icon">
                             <img src="./Assets/logo/icon_flèche_2.png" alt="flèchebas">
                         </span>
                     </div>
-                    <div class="formulaire2">
-                        <p>Souhaitez-vous recevoir des news</p>
+                    <div class="ligne4">
+                        <p class="news">Souhaitez-vous recevoir des news</p>
                     </div>
-                    <a href="">Des films</a>
-                    <a href="">Des Comics</a>
-                    <a href="">De tout</a>
-                    <p>MESSAGE</p>
+                    <div class="btn-group">
+                        <input type="radio" id="films">
+                        <label for="film">Des Films</label>
+                        <input type="radio" id="comics">
+                        <label for="comic">Des Comics</label>
+                        <input type="radio" id="tout">
+                        <label for="tout">De tout</label>
+                    </div>
+                    <p class="titre" >MESSAGE</p>
                     <textarea name="" id="" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
                     <input type="submit" value="CONFIRMER">
             </form>
+        </div>
         </section>
         <!-- Section citation -->
         <section class="replique">

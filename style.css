@@ -19,6 +19,8 @@
     --white: #fff;
     --gradient-white:#eddebf69;
     --gradient-red:#890009a6;
+    --gray-light:#c4c4c4;
+    --gradient-blue:#19587d57;
 }
 *{
     margin: 0;
@@ -198,12 +200,16 @@ nav ul a:hover{
     margin-left: 300px;
     position: absolute;
     margin-top: 5%;
+    background-color: transparent;
+    border: none;
     
 }
 .right{
     position: absolute;
     margin-left: 1200px;
     margin-top: 5%;
+    background-color: transparent;
+    border: none;
 }
 .resume {
     background-color: #727272;
@@ -240,3 +246,55 @@ nav ul a:hover{
 .trailer{
     margin: 50px 250px;
 }
+/* design de la partie contact avec le formulaire */
+
+#contact{
+    background:linear-gradient(60deg,var(--gradient-white),var(--gradient-blue) ) ;
+    padding: 70px 0;   
+}
+.formulaire{
+    width: 50%;
+    margin: 0 auto;
+}
+.formulaire h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10%;
+}
+.titre{
+    display: block;
+    margin: 25px 0;
+}
+.formulaire input[type="email"], textarea{
+    display: block;
+    width: 80%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.379);
+    background-color: transparent;
+    padding: 5px 0;
+}
+.icon img{
+    transform: rotate(90deg);
+    width: 20px;
+}
+.ligne4{
+    margin: 15px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.379);
+    width: 80%;
+}
+.btn-group{
+    padding: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 50%;
+    border: 2px solid ;
+    border-color: #19587d;
+}
+.btn-group input[type="radio"]{
+    opacity: 0;
+}
+
