@@ -65,6 +65,9 @@ nav ul a{
 nav ul a:hover{
     color: var(--yellow-color);
 }
+.logo:hover{
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg) brightness(109%) contrast(104%);
+}
 .preambule {
     display: flex;
     justify-content: center;
@@ -331,3 +334,50 @@ textarea{
     border: none;
     cursor: pointer;
 }
+/* design pour le footer */
+.container{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 60%;
+    margin-top: 150px;
+}
+.guillemet1{
+    float: left;
+}
+.guillemet2{
+    float: right;
+}
+.citation{
+    font-size: 12px;
+    padding-top: 50px;
+}
+.darknight{
+    font-size: 10px;
+    opacity: 40%;
+    margin: 10px 0;
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.disclamer img{
+    width: 20px;
+    margin-right: 10px;
+}
+.disclamer{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+}
+.logo-footer{
+    text-align: center;
+    margin: 25px 0;
+}
+footer .social-item{
+    padding: 15px;
+    
+}
+
