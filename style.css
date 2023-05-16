@@ -22,6 +22,7 @@
     --gray-light:#c4c4c4;
     --gradient-blue:#19587d57;
 }
+/* paramètres généraux */
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +44,26 @@ body{
     font-family: 'font-txt', sans-serif;
     font-weight: 300;
 } 
+.up-bar{
+    border-top: #bcbbbd 1px solid;
+    position: relative;
+    top: 132px;
+    left: 102px;
+    width: 84%;
+}
+.left-bar{
+    border: #bcbbbd 1px solid;
+    position: relative;
+    right: 655px;
+    rotate: 90deg;
+}
+.right-bar{
+    border: #bcbbbd 1px solid;
+    position: relative;
+    left: 618px;
+    rotate: 90deg;
+    
+}
 /* paramètres pour la partie header */
 nav {
     display: flex;
