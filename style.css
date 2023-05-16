@@ -265,7 +265,7 @@ nav ul a:hover{
     display: block;
     margin: 25px 0;
 }
-.formulaire input[type="email"], textarea{
+.formulaire input[type="email"]{
     display: block;
     width: 80%;
     border-top: none;
@@ -275,9 +275,18 @@ nav ul a:hover{
     background-color: transparent;
     padding: 5px 0;
 }
+.carré{
+    opacity: 50%;
+}
 .icon img{
     transform: rotate(90deg);
     width: 20px;
+}
+.ligne3{
+    margin: 15px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.379);
+    width: 80%;
+    opacity: 50%;
 }
 .ligne4{
     margin: 15px 0;
@@ -290,11 +299,35 @@ nav ul a:hover{
     display: flex;
     justify-content: space-around;
     font-size: 12px;
-    width: 50%;
-    border: 2px solid ;
-    border-color: #19587d;
+    width: 70%;
 }
 .btn-group input[type="radio"]{
     opacity: 0;
 }
-
+.btn-group label{
+    cursor: pointer;
+    border: 2px solid;
+    border-image:linear-gradient(70deg,var(--gradient-white),var(--gradient-blue))1;
+    padding: 10px 15px;
+}
+textarea{
+    display: block;
+    width: 80%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.379);
+    background-color: transparent;
+}
+.formulaire input[type="submit"]{
+    display: block;
+    width: 180px;
+    margin-top: 25px;
+    margin-left: 230px;
+    padding: 15px 0;
+    font-size: 12px;
+    background: linear-gradient(80deg,var(--gradient-white),var(--gradient-red));
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
