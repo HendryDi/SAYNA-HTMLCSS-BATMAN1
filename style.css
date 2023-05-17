@@ -184,13 +184,19 @@ nav ul a:hover{
     font-size: 18px;
 }
 /* design pour batmanallies */
+.bathome12{
+    width: 10%;
+    margin-left: 70%;
+    
+}
+
 .ally{
     font-size: 18px;
     text-align: justify;
     margin: 50px 400px 50px 250px;
 }
 .ally h1{
-    margin: 50px auto;
+    margin: 0 auto 50px auto;
 }
 .allies{
     text-transform: capitalize;
@@ -358,7 +364,7 @@ textarea{
     border: none;
     cursor: pointer;
 }
-/* design pour le footer */
+/* design pour la citation */
 .container{
     text-align: center;
     margin: 0 auto;
@@ -400,6 +406,9 @@ textarea{
     margin-left: 20px;
     border: 2px solid var(--blue);
   }
+
+  /* design pour le footer */
+
 footer{
     text-align: center;
     margin: 0 auto;
