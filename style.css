@@ -56,12 +56,14 @@ body{
     position: relative;
     right: 655px;
     rotate: 90deg;
+    
 }
 .right-bar{
     border: #bcbbbd 1px solid;
     position: relative;
     left: 618px;
     rotate: 90deg;
+    
     
 }
 /* paramètres pour la partie header */
@@ -123,6 +125,7 @@ nav ul a:hover{
     position: fixed;
     right: 90px;
     top: 230px;
+    
 }
 .scroll .social{
     margin-top: 15px;
@@ -396,9 +399,16 @@ footer{
 .logo-footer{
     text-align: center;
     margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer .social-item{
-    padding: 15px;
-    
+.social-item img{
+    width: 30px;
+    margin-right: 10px;
+}
+.social-item1 img{
+    width: 20px;
+    padding-right: 7px;
 }
 
